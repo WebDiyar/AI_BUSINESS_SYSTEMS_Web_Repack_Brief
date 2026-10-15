@@ -1,0 +1,12 @@
+{
+  "name": "ai-business-systems-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI BUSINESS SYSTEMS — статический сайт (HTML/CSS), без сборки",
+  "scripts": {
+    "start": "./start.sh",
+    "check": "grep -n -i strativon site/index.html || echo 'STRATIVON не найден'",
+    "preview": "npx --yes vercel deploy",
+    "deploy": "npx --yes vercel deploy --prod"
+  }
+}

@@ -1,0 +1,10 @@
+/source
+/assets
+/docs
+/screenshots
+/.vscode
+/.claude
+/start.sh
+/*.pdf
+/*.txt
+.DS_Store

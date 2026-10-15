@@ -1,17 +1,13 @@
 #!/bin/bash
 # Запуск сайта локально. Первый запуск создаёт рабочую копию site/ из source/
-# с git-историей (исходник -> без CNAME). source/ не трогается.
+# (без CNAME; git не создаётся, используется корневой репозиторий). source/ не трогается.
 set -euo pipefail
 cd "$(dirname "$0")"
 
 if [ ! -d site ]; then
   cp -R source site
-  cd site
-  git init -q -b main
-  git add -A && git commit -qm "Original snapshot (68786e9)"
-  git rm -q CNAME && git commit -qm "Remove CNAME for test deploy"
-  cd ..
-  echo "Создана рабочая копия site/ (git: исходник + удалён CNAME)"
+  rm site/CNAME
+  echo "Создана рабочая копия site/ (без CNAME)"
 fi
 
 port=${PORT:-8000}

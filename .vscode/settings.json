@@ -28,6 +28,8 @@
   },
 
   // --- этот проект ---
+  // один git на проект: не искать вложенные репозитории (иначе site/ показывается отдельным репо)
+  "git.repositoryScanMaxDepth": 0,
   "liveServer.settings.root": "/site",
   "liveServer.settings.port": 5500,
   "liveServer.settings.donotShowInfoMsg": true,
