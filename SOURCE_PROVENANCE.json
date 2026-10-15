@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/angle-theory-studio/angletheory-site",
+  "branch": "main",
+  "commit": "68786e940b99dbcabbdfb78c202a1938c64ac266",
+  "purpose": "unchanged source snapshot for developer assignment",
+  "files": [
+    {
+      "path": "CNAME",
+      "sha256": "ac564d65561267307f1bb12a0bc15c1fea98044ddb35cb764b92635438754ad5"
+    },
+    {
+      "path": "ChatGPT Image 22 серп. 2026 р., 23_57_57.png",
+      "sha256": "836567187cc687cfdba573c877c79e34715d08ecbb9c2167b68c30360ea55d0d"
+    },
+    {
+      "path": "a_clean_graphic_logo_image_on_a_transparent_backgr.png",
+      "sha256": "32c2909e41a7f5597567eb5001264524755848696de366325499182dc7ccb2af"
+    },
+    {
+      "path": "index.html",
+      "sha256": "794348d5c1f8badc7418502bba07960b934e1d460ec3617a5da4012134f0ba5e"
+    },
+    {
+      "path": "strativon-logo-approved.jpg",
+      "sha256": "beef19934a8890bff4cff4d1aedfe956a01ded19480f17dfd408b7f2fe411f3e"
+    }
+  ]
+}

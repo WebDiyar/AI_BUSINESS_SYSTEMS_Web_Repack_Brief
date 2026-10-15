@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Запустить сайт",
+      "type": "shell",
+      "command": "./start.sh",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Проверить: остался ли STRATIVON",
+      "type": "shell",
+      "command": "grep -n -i strativon site/index.html || echo 'STRATIVON не найден'",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}
