@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "/Users/diyar/Downloads/Telegram Desktop/AI_BUSINESS_SYSTEMS_Web_Repack_Package/site/index.html"
+        ],
+        "createdAt": "2026-10-15T10:41:03.223Z",
+        "reason": "client brief (PDF p.2) asks for green accents and glow effects; brand logo and panorama reference are neon-green glow; not user-confirmed"
+      },
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-10-15T10:43:57.453Z",
+        "reason": "Montserrat's wide geometric caps match the AI BUSINESS SYSTEMS logo lettering; free Google Font per brief; not user-confirmed"
+      }
+    ]
+  }
+}
